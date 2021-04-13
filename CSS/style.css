@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+
+.the{
+    margin-top: 70px;
+    background: url('https://i.pinimg.com/originals/10/5c/f9/105cf96ed557b7dcbc0c15fc8531f595.png') center / cover;
+    width: 100%;
+    height: 50%;
+    color: white;
+    text-align: center;
+}
+
+.end p{
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.end h1{
+    font-size: 40px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.end i{
+    font-size: 30px;
+    margin: 20px 10px;
+    transition: 1s;
+}
+
+.end i:hover{
+    color: red;
+    text-shadow: 0px 0px 20px red,
+    0px 0px 40px darkred,
+    0px 0px 60px brown
+    ;
+}
+
+.end hr{
+    background-color: dimgray;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.putin{
+    padding-bottom: 20px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+.putin div{
+    padding: 0 20px;
+}
+
+.putin div p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:489px){
+    .the{
+        background: url('https://i.pinimg.com/originals/10/5c/f9/105cf96ed557b7dcbc0c15fc8531f595.png') left / cover;
+    }
+
+
+    .end hr{
+        display: none;
+    }
+
+    .putin div{
+        padding: 0 10px;
+    }
+}
+
+
+@media(max-width:429px){
+    .putin div{
+        padding: 0 5px;
+    }
+}
+
+@media(max-width:399px){
+    .putin div{
+        padding: 0 0px;
+    }
+}
+
+@media(max-width:369px){
+    .putin{
+        margin: auto 0;
+        padding: auto 0;
+    }
+
+    .putin p{
+        width: 80%;
+        margin: auto 0;
+    }
+}
+
+@media(max-width:368px){
+    .putin{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 40px;
+        width: 90%;
+    }
+
+}
